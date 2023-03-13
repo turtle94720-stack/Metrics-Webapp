@@ -1,7 +1,5 @@
-const Detail = () => {
-    return (
-        <h1>detail</h1>
-    )
-}
+const Detail = () => (
+  <h1>detail</h1>
+);
 
 export default Detail;
