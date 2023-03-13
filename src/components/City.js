@@ -12,6 +12,7 @@ const City = () => (
                     }}
                   >
                     <div>
+                      <img src={city.img} alt="country map" />
                       <h2>{city.name}</h2>
                       <p>{city.lat}</p>
                       <p>{city.lon}</p>
