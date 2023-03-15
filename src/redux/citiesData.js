@@ -1,8 +1,8 @@
 const citiesData = [
   {
     name: 'London',
-    lat: 51.5074,
-    lon: -0.1278,
+    lat: 44.34,
+    lon: 10.99,
     country: 'GB',
     img: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/gb/512.png',
   },
