@@ -10,11 +10,19 @@ const City = () => (
           pathname: `/${city.name}/${city.lat}/${city.lon}`,
         }}
       >
-        <div>
+        <div className="city">
           <img src={city.img} alt="country map" />
-          <h2>{city.name}</h2>
-          <p>{city.lat}</p>
-          <p>{city.lon}</p>
+          <div className="city-info">
+            <h2>{city.name}</h2>
+            <p className="latitude">
+              <span>Lat: </span>
+              <span>{city.lat}</span>
+            </p>
+            <p className="longitude">
+              <span>Long: </span>
+              <span>{city.lon}</span>
+            </p>
+          </div>
         </div>
       </Link>
     ))}
