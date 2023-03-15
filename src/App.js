@@ -11,7 +11,7 @@ const App = () => (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<City />} />
-        <Route path="/:name/:lat/:lon" element={<Detail />} />
+        <Route path="/detail/:name/:lat/:lon" element={<Detail />} />
         <Route path="*" element={<h1>Not found</h1>} />
       </Route>
     </Routes>

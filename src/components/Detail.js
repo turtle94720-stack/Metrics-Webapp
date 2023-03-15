@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchDetail } from '../redux/detail/detailsSlice';
 
 const Detail = () => {
-  const { lat, lon, name } = useParams();
+  const { name, lat, lon } = useParams();
   const details = useSelector((state) => state.details);
   const dispatch = useDispatch();
 

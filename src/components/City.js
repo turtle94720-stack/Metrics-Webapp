@@ -7,7 +7,7 @@ const City = () => (
       <Link
         key={city.country}
         to={{
-          pathname: `/${city.name}/${city.lat}/${city.lon}`,
+          pathname: `/detail/${city.name}/${city.lat}/${city.lon}`,
         }}
       >
         <div className="city">

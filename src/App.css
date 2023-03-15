@@ -19,6 +19,28 @@ h2 {
     font-size: 20px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: rgba(0,0,0,.076);
+    padding: 15px;
+}
+
+nav .year {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav .year a:-webkit-any-link {
+    color: #fff;
+}
+
+nav .icon span {
+    font-size: 21px;
+    margin-left: 15px;
+}
+
 section {
     display: grid;
     grid-template-columns: auto auto;
