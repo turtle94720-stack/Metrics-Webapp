@@ -21,9 +21,9 @@ const Detail = () => {
   }
 
   return (
-    <>
+    <div className="detail">
       <h1>{name}</h1>
-      <div>
+      <div className="coordinates">
         <h2>Coordinates</h2>
         <p>
           <span>Latitude</span>
@@ -34,7 +34,7 @@ const Detail = () => {
           <span>{details.coord.lon}</span>
         </p>
       </div>
-      <div>
+      <div className="weather">
         <h2>Weather</h2>
         <p>
           <span>Main</span>
@@ -45,7 +45,7 @@ const Detail = () => {
           <span>{details.weather[0].description}</span>
         </p>
       </div>
-      <div>
+      <div className="base-station">
         <h2>Base Station</h2>
         <p>
           <span>Temperature</span>
@@ -64,14 +64,14 @@ const Detail = () => {
           <span>{details.main.pressure}</span>
         </p>
       </div>
-      <div>
+      <div className="visibility">
         <h2>Visibility</h2>
         <p>
           <span>Visible</span>
           <span>{details.visibility}</span>
         </p>
       </div>
-      <div>
+      <div className="wind">
         <h2>Wind</h2>
         <p>
           <span>Speed</span>
@@ -82,14 +82,14 @@ const Detail = () => {
           <span>{details.wind.deg}</span>
         </p>
       </div>
-      <div>
+      <div className="cloud">
         <h2>Clouds</h2>
         <p>
           <span>Cover</span>
           <span>{details.clouds.all}</span>
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

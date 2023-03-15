@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #ec4c8a;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
 h2 {
     font-size: 20px;
 }
@@ -27,13 +38,13 @@ section .city {
 
 section a:-webkit-any-link:nth-child(4n+2),
 a:-webkit-any-link:nth-child(4n+3) {
-    background-color: #ec4c8a;
+    background-color: #fc5193;
 }
 
 section a:-webkit-any-link:nth-child(1),
 a:-webkit-any-link:nth-child(4n+4),
 a:-webkit-any-link:nth-child(4n+5) {
-    background-color: #d43975;
+    background-color: rgba(0,0,0,.076);
 }
 
 section .city img {
@@ -51,4 +62,30 @@ section .city .city-info {
 section .city .city-info p {
     font-size: 13px;
     margin-top: 2px;
+}
+
+/* detail */
+.detail {
+    width: 97%;
+    margin: 10px auto;
+}
+
+.detail div {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.detail div h2 {
+    font-size: 17px;
+}
+
+.detail div p {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.detail .coordinates, .base-station, .wind {
+    background-color: rgba(0,0,0,.076);
 }
