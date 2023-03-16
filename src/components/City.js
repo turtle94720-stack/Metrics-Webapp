@@ -14,11 +14,11 @@ const City = () => (
           <img src={city.img} alt="country map" />
           <div className="city-info">
             <h2>{city.name}</h2>
-            <p className="latitude">
+            <p className="coordinate">
               <span>Lat: </span>
               <span>{city.lat}</span>
             </p>
-            <p className="longitude">
+            <p className="coordinate">
               <span>Long: </span>
               <span>{city.lon}</span>
             </p>
