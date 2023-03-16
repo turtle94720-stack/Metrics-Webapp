@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- live demo will appear when ready
+- [Live Demo Link](https://metrics-webapp-mjkm.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
