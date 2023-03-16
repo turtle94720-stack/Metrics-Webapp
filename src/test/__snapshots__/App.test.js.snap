@@ -1,0 +1,940 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav>
+        <p
+          class="year"
+        >
+          2023
+        </p>
+        <p
+          class="title"
+        >
+          most views
+        </p>
+        <p
+          class="icon"
+        >
+          <span>
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 352 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M176 352c53.02 0 96-42.98 96-96V96c0-53.02-42.98-96-96-96S80 42.98 80 96v160c0 53.02 42.98 96 96 96zm160-160h-16c-8.84 0-16 7.16-16 16v48c0 74.8-64.49 134.82-140.79 127.38C96.71 376.89 48 317.11 48 250.3V208c0-8.84-7.16-16-16-16H16c-8.84 0-16 7.16-16 16v40.16c0 89.64 63.97 169.55 152 181.69V464H96c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-56v-33.77C285.71 418.47 352 344.9 352 256v-48c0-8.84-7.16-16-16-16z"
+              />
+            </svg>
+          </span>
+          <span>
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M512.5 390.6c-29.9 0-57.9 11.6-79.1 32.8-21.1 21.2-32.8 49.2-32.8 79.1 0 29.9 11.7 57.9 32.8 79.1 21.2 21.1 49.2 32.8 79.1 32.8 29.9 0 57.9-11.7 79.1-32.8 21.1-21.2 32.8-49.2 32.8-79.1 0-29.9-11.7-57.9-32.8-79.1a110.96 110.96 0 0 0-79.1-32.8zm412.3 235.5l-65.4-55.9c3.1-19 4.7-38.4 4.7-57.7s-1.6-38.8-4.7-57.7l65.4-55.9a32.03 32.03 0 0 0 9.3-35.2l-.9-2.6a442.5 442.5 0 0 0-79.6-137.7l-1.8-2.1a32.12 32.12 0 0 0-35.1-9.5l-81.2 28.9c-30-24.6-63.4-44-99.6-57.5l-15.7-84.9a32.05 32.05 0 0 0-25.8-25.7l-2.7-.5c-52-9.4-106.8-9.4-158.8 0l-2.7.5a32.05 32.05 0 0 0-25.8 25.7l-15.8 85.3a353.44 353.44 0 0 0-98.9 57.3l-81.8-29.1a32 32 0 0 0-35.1 9.5l-1.8 2.1a445.93 445.93 0 0 0-79.6 137.7l-.9 2.6c-4.5 12.5-.8 26.5 9.3 35.2l66.2 56.5c-3.1 18.8-4.6 38-4.6 57 0 19.2 1.5 38.4 4.6 57l-66 56.5a32.03 32.03 0 0 0-9.3 35.2l.9 2.6c18.1 50.3 44.8 96.8 79.6 137.7l1.8 2.1a32.12 32.12 0 0 0 35.1 9.5l81.8-29.1c29.8 24.5 63 43.9 98.9 57.3l15.8 85.3a32.05 32.05 0 0 0 25.8 25.7l2.7.5a448.27 448.27 0 0 0 158.8 0l2.7-.5a32.05 32.05 0 0 0 25.8-25.7l15.7-84.9c36.2-13.6 69.6-32.9 99.6-57.5l81.2 28.9a32 32 0 0 0 35.1-9.5l1.8-2.1c34.8-41.1 61.5-87.4 79.6-137.7l.9-2.6c4.3-12.4.6-26.3-9.5-35zm-412.3 52.2c-97.1 0-175.8-78.7-175.8-175.8s78.7-175.8 175.8-175.8 175.8 78.7 175.8 175.8-78.7 175.8-175.8 175.8z"
+              />
+            </svg>
+          </span>
+        </p>
+      </nav>
+      <section>
+        <a
+          href="/detail/London/44.34/10.99"
+        >
+          <div
+            class="city"
+          >
+            <img
+              alt="country map"
+              src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/gb/512.png"
+            />
+            <div
+              class="city-info"
+            >
+              <h2>
+                London
+              </h2>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Lat: 
+                </span>
+                <span>
+                  44.34
+                </span>
+              </p>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Long: 
+                </span>
+                <span>
+                  10.99
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/detail/Paris/48.8589/2.32"
+        >
+          <div
+            class="city"
+          >
+            <img
+              alt="country map"
+              src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/fr/512.png"
+            />
+            <div
+              class="city-info"
+            >
+              <h2>
+                Paris
+              </h2>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Lat: 
+                </span>
+                <span>
+                  48.8589
+                </span>
+              </p>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Long: 
+                </span>
+                <span>
+                  2.32
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/detail/Rome/41.8933/12.4829"
+        >
+          <div
+            class="city"
+          >
+            <img
+              alt="country map"
+              src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/gr/512.png"
+            />
+            <div
+              class="city-info"
+            >
+              <h2>
+                Rome
+              </h2>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Lat: 
+                </span>
+                <span>
+                  41.8933
+                </span>
+              </p>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Long: 
+                </span>
+                <span>
+                  12.4829
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/detail/Spain/40.4167/-3.7036"
+        >
+          <div
+            class="city"
+          >
+            <img
+              alt="country map"
+              src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/es/512.png"
+            />
+            <div
+              class="city-info"
+            >
+              <h2>
+                Spain
+              </h2>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Lat: 
+                </span>
+                <span>
+                  40.4167
+                </span>
+              </p>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Long: 
+                </span>
+                <span>
+                  -3.7036
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/detail/Berlin/52.517/13.3889"
+        >
+          <div
+            class="city"
+          >
+            <img
+              alt="country map"
+              src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/de/512.png"
+            />
+            <div
+              class="city-info"
+            >
+              <h2>
+                Berlin
+              </h2>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Lat: 
+                </span>
+                <span>
+                  52.517
+                </span>
+              </p>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Long: 
+                </span>
+                <span>
+                  13.3889
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/detail/Tokyo/35.6767/139.764"
+        >
+          <div
+            class="city"
+          >
+            <img
+              alt="country map"
+              src="https://raw.githubusercontent.com/djaiss/mapsicon/master/asia/jp/512.png"
+            />
+            <div
+              class="city-info"
+            >
+              <h2>
+                Tokyo
+              </h2>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Lat: 
+                </span>
+                <span>
+                  35.6767
+                </span>
+              </p>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Long: 
+                </span>
+                <span>
+                  139.764
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/detail/Beijing/39.9062/116.3913"
+        >
+          <div
+            class="city"
+          >
+            <img
+              alt="country map"
+              src="https://raw.githubusercontent.com/djaiss/mapsicon/master/asia/cn/512.png"
+            />
+            <div
+              class="city-info"
+            >
+              <h2>
+                Beijing
+              </h2>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Lat: 
+                </span>
+                <span>
+                  39.9062
+                </span>
+              </p>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Long: 
+                </span>
+                <span>
+                  116.3913
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/detail/Singapore/1.2899/103.8519"
+        >
+          <div
+            class="city"
+          >
+            <img
+              alt="country map"
+              src="https://raw.githubusercontent.com/djaiss/mapsicon/master/asia/sg/512.png"
+            />
+            <div
+              class="city-info"
+            >
+              <h2>
+                Singapore
+              </h2>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Lat: 
+                </span>
+                <span>
+                  1.2899
+                </span>
+              </p>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Long: 
+                </span>
+                <span>
+                  103.8519
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/detail/Mumbai/19.0785/72.8782"
+        >
+          <div
+            class="city"
+          >
+            <img
+              alt="country map"
+              src="https://raw.githubusercontent.com/djaiss/mapsicon/master/asia/in/512.png"
+            />
+            <div
+              class="city-info"
+            >
+              <h2>
+                Mumbai
+              </h2>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Lat: 
+                </span>
+                <span>
+                  19.0785
+                </span>
+              </p>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Long: 
+                </span>
+                <span>
+                  72.8782
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/detail/New York/39.6853/-93.9269"
+        >
+          <div
+            class="city"
+          >
+            <img
+              alt="country map"
+              src="https://raw.githubusercontent.com/djaiss/mapsicon/master/us/us/512.png"
+            />
+            <div
+              class="city-info"
+            >
+              <h2>
+                New York
+              </h2>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Lat: 
+                </span>
+                <span>
+                  39.6853
+                </span>
+              </p>
+              <p
+                class="coordinate"
+              >
+                <span>
+                  Long: 
+                </span>
+                <span>
+                  -93.9269
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <nav>
+      <p
+        class="year"
+      >
+        2023
+      </p>
+      <p
+        class="title"
+      >
+        most views
+      </p>
+      <p
+        class="icon"
+      >
+        <span>
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M176 352c53.02 0 96-42.98 96-96V96c0-53.02-42.98-96-96-96S80 42.98 80 96v160c0 53.02 42.98 96 96 96zm160-160h-16c-8.84 0-16 7.16-16 16v48c0 74.8-64.49 134.82-140.79 127.38C96.71 376.89 48 317.11 48 250.3V208c0-8.84-7.16-16-16-16H16c-8.84 0-16 7.16-16 16v40.16c0 89.64 63.97 169.55 152 181.69V464H96c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-56v-33.77C285.71 418.47 352 344.9 352 256v-48c0-8.84-7.16-16-16-16z"
+            />
+          </svg>
+        </span>
+        <span>
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M512.5 390.6c-29.9 0-57.9 11.6-79.1 32.8-21.1 21.2-32.8 49.2-32.8 79.1 0 29.9 11.7 57.9 32.8 79.1 21.2 21.1 49.2 32.8 79.1 32.8 29.9 0 57.9-11.7 79.1-32.8 21.1-21.2 32.8-49.2 32.8-79.1 0-29.9-11.7-57.9-32.8-79.1a110.96 110.96 0 0 0-79.1-32.8zm412.3 235.5l-65.4-55.9c3.1-19 4.7-38.4 4.7-57.7s-1.6-38.8-4.7-57.7l65.4-55.9a32.03 32.03 0 0 0 9.3-35.2l-.9-2.6a442.5 442.5 0 0 0-79.6-137.7l-1.8-2.1a32.12 32.12 0 0 0-35.1-9.5l-81.2 28.9c-30-24.6-63.4-44-99.6-57.5l-15.7-84.9a32.05 32.05 0 0 0-25.8-25.7l-2.7-.5c-52-9.4-106.8-9.4-158.8 0l-2.7.5a32.05 32.05 0 0 0-25.8 25.7l-15.8 85.3a353.44 353.44 0 0 0-98.9 57.3l-81.8-29.1a32 32 0 0 0-35.1 9.5l-1.8 2.1a445.93 445.93 0 0 0-79.6 137.7l-.9 2.6c-4.5 12.5-.8 26.5 9.3 35.2l66.2 56.5c-3.1 18.8-4.6 38-4.6 57 0 19.2 1.5 38.4 4.6 57l-66 56.5a32.03 32.03 0 0 0-9.3 35.2l.9 2.6c18.1 50.3 44.8 96.8 79.6 137.7l1.8 2.1a32.12 32.12 0 0 0 35.1 9.5l81.8-29.1c29.8 24.5 63 43.9 98.9 57.3l15.8 85.3a32.05 32.05 0 0 0 25.8 25.7l2.7.5a448.27 448.27 0 0 0 158.8 0l2.7-.5a32.05 32.05 0 0 0 25.8-25.7l15.7-84.9c36.2-13.6 69.6-32.9 99.6-57.5l81.2 28.9a32 32 0 0 0 35.1-9.5l1.8-2.1c34.8-41.1 61.5-87.4 79.6-137.7l.9-2.6c4.3-12.4.6-26.3-9.5-35zm-412.3 52.2c-97.1 0-175.8-78.7-175.8-175.8s78.7-175.8 175.8-175.8 175.8 78.7 175.8 175.8-78.7 175.8-175.8 175.8z"
+            />
+          </svg>
+        </span>
+      </p>
+    </nav>
+    <section>
+      <a
+        href="/detail/London/44.34/10.99"
+      >
+        <div
+          class="city"
+        >
+          <img
+            alt="country map"
+            src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/gb/512.png"
+          />
+          <div
+            class="city-info"
+          >
+            <h2>
+              London
+            </h2>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Lat: 
+              </span>
+              <span>
+                44.34
+              </span>
+            </p>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Long: 
+              </span>
+              <span>
+                10.99
+              </span>
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/detail/Paris/48.8589/2.32"
+      >
+        <div
+          class="city"
+        >
+          <img
+            alt="country map"
+            src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/fr/512.png"
+          />
+          <div
+            class="city-info"
+          >
+            <h2>
+              Paris
+            </h2>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Lat: 
+              </span>
+              <span>
+                48.8589
+              </span>
+            </p>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Long: 
+              </span>
+              <span>
+                2.32
+              </span>
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/detail/Rome/41.8933/12.4829"
+      >
+        <div
+          class="city"
+        >
+          <img
+            alt="country map"
+            src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/gr/512.png"
+          />
+          <div
+            class="city-info"
+          >
+            <h2>
+              Rome
+            </h2>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Lat: 
+              </span>
+              <span>
+                41.8933
+              </span>
+            </p>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Long: 
+              </span>
+              <span>
+                12.4829
+              </span>
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/detail/Spain/40.4167/-3.7036"
+      >
+        <div
+          class="city"
+        >
+          <img
+            alt="country map"
+            src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/es/512.png"
+          />
+          <div
+            class="city-info"
+          >
+            <h2>
+              Spain
+            </h2>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Lat: 
+              </span>
+              <span>
+                40.4167
+              </span>
+            </p>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Long: 
+              </span>
+              <span>
+                -3.7036
+              </span>
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/detail/Berlin/52.517/13.3889"
+      >
+        <div
+          class="city"
+        >
+          <img
+            alt="country map"
+            src="https://raw.githubusercontent.com/djaiss/mapsicon/master/europe/de/512.png"
+          />
+          <div
+            class="city-info"
+          >
+            <h2>
+              Berlin
+            </h2>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Lat: 
+              </span>
+              <span>
+                52.517
+              </span>
+            </p>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Long: 
+              </span>
+              <span>
+                13.3889
+              </span>
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/detail/Tokyo/35.6767/139.764"
+      >
+        <div
+          class="city"
+        >
+          <img
+            alt="country map"
+            src="https://raw.githubusercontent.com/djaiss/mapsicon/master/asia/jp/512.png"
+          />
+          <div
+            class="city-info"
+          >
+            <h2>
+              Tokyo
+            </h2>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Lat: 
+              </span>
+              <span>
+                35.6767
+              </span>
+            </p>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Long: 
+              </span>
+              <span>
+                139.764
+              </span>
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/detail/Beijing/39.9062/116.3913"
+      >
+        <div
+          class="city"
+        >
+          <img
+            alt="country map"
+            src="https://raw.githubusercontent.com/djaiss/mapsicon/master/asia/cn/512.png"
+          />
+          <div
+            class="city-info"
+          >
+            <h2>
+              Beijing
+            </h2>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Lat: 
+              </span>
+              <span>
+                39.9062
+              </span>
+            </p>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Long: 
+              </span>
+              <span>
+                116.3913
+              </span>
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/detail/Singapore/1.2899/103.8519"
+      >
+        <div
+          class="city"
+        >
+          <img
+            alt="country map"
+            src="https://raw.githubusercontent.com/djaiss/mapsicon/master/asia/sg/512.png"
+          />
+          <div
+            class="city-info"
+          >
+            <h2>
+              Singapore
+            </h2>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Lat: 
+              </span>
+              <span>
+                1.2899
+              </span>
+            </p>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Long: 
+              </span>
+              <span>
+                103.8519
+              </span>
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/detail/Mumbai/19.0785/72.8782"
+      >
+        <div
+          class="city"
+        >
+          <img
+            alt="country map"
+            src="https://raw.githubusercontent.com/djaiss/mapsicon/master/asia/in/512.png"
+          />
+          <div
+            class="city-info"
+          >
+            <h2>
+              Mumbai
+            </h2>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Lat: 
+              </span>
+              <span>
+                19.0785
+              </span>
+            </p>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Long: 
+              </span>
+              <span>
+                72.8782
+              </span>
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/detail/New York/39.6853/-93.9269"
+      >
+        <div
+          class="city"
+        >
+          <img
+            alt="country map"
+            src="https://raw.githubusercontent.com/djaiss/mapsicon/master/us/us/512.png"
+          />
+          <div
+            class="city-info"
+          >
+            <h2>
+              New York
+            </h2>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Lat: 
+              </span>
+              <span>
+                39.6853
+              </span>
+            </p>
+            <p
+              class="coordinate"
+            >
+              <span>
+                Long: 
+              </span>
+              <span>
+                -93.9269
+              </span>
+            </p>
+          </div>
+        </div>
+      </a>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
