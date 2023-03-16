@@ -23,7 +23,7 @@ Object {
                 London
               </h2>
               <p
-                class="latitude"
+                class="coordinate"
               >
                 <span>
                   Lat: 
@@ -33,7 +33,7 @@ Object {
                 </span>
               </p>
               <p
-                class="longitude"
+                class="coordinate"
               >
                 <span>
                   Long: 
@@ -62,7 +62,7 @@ Object {
                 Paris
               </h2>
               <p
-                class="latitude"
+                class="coordinate"
               >
                 <span>
                   Lat: 
@@ -72,7 +72,7 @@ Object {
                 </span>
               </p>
               <p
-                class="longitude"
+                class="coordinate"
               >
                 <span>
                   Long: 
@@ -101,7 +101,7 @@ Object {
                 Rome
               </h2>
               <p
-                class="latitude"
+                class="coordinate"
               >
                 <span>
                   Lat: 
@@ -111,7 +111,7 @@ Object {
                 </span>
               </p>
               <p
-                class="longitude"
+                class="coordinate"
               >
                 <span>
                   Long: 
@@ -140,7 +140,7 @@ Object {
                 Spain
               </h2>
               <p
-                class="latitude"
+                class="coordinate"
               >
                 <span>
                   Lat: 
@@ -150,7 +150,7 @@ Object {
                 </span>
               </p>
               <p
-                class="longitude"
+                class="coordinate"
               >
                 <span>
                   Long: 
@@ -179,7 +179,7 @@ Object {
                 Berlin
               </h2>
               <p
-                class="latitude"
+                class="coordinate"
               >
                 <span>
                   Lat: 
@@ -189,7 +189,7 @@ Object {
                 </span>
               </p>
               <p
-                class="longitude"
+                class="coordinate"
               >
                 <span>
                   Long: 
@@ -218,7 +218,7 @@ Object {
                 Tokyo
               </h2>
               <p
-                class="latitude"
+                class="coordinate"
               >
                 <span>
                   Lat: 
@@ -228,7 +228,7 @@ Object {
                 </span>
               </p>
               <p
-                class="longitude"
+                class="coordinate"
               >
                 <span>
                   Long: 
@@ -257,7 +257,7 @@ Object {
                 Beijing
               </h2>
               <p
-                class="latitude"
+                class="coordinate"
               >
                 <span>
                   Lat: 
@@ -267,7 +267,7 @@ Object {
                 </span>
               </p>
               <p
-                class="longitude"
+                class="coordinate"
               >
                 <span>
                   Long: 
@@ -296,7 +296,7 @@ Object {
                 Singapore
               </h2>
               <p
-                class="latitude"
+                class="coordinate"
               >
                 <span>
                   Lat: 
@@ -306,7 +306,7 @@ Object {
                 </span>
               </p>
               <p
-                class="longitude"
+                class="coordinate"
               >
                 <span>
                   Long: 
@@ -335,7 +335,7 @@ Object {
                 Mumbai
               </h2>
               <p
-                class="latitude"
+                class="coordinate"
               >
                 <span>
                   Lat: 
@@ -345,7 +345,7 @@ Object {
                 </span>
               </p>
               <p
-                class="longitude"
+                class="coordinate"
               >
                 <span>
                   Long: 
@@ -374,7 +374,7 @@ Object {
                 New York
               </h2>
               <p
-                class="latitude"
+                class="coordinate"
               >
                 <span>
                   Lat: 
@@ -384,7 +384,7 @@ Object {
                 </span>
               </p>
               <p
-                class="longitude"
+                class="coordinate"
               >
                 <span>
                   Long: 
@@ -418,7 +418,7 @@ Object {
               London
             </h2>
             <p
-              class="latitude"
+              class="coordinate"
             >
               <span>
                 Lat: 
@@ -428,7 +428,7 @@ Object {
               </span>
             </p>
             <p
-              class="longitude"
+              class="coordinate"
             >
               <span>
                 Long: 
@@ -457,7 +457,7 @@ Object {
               Paris
             </h2>
             <p
-              class="latitude"
+              class="coordinate"
             >
               <span>
                 Lat: 
@@ -467,7 +467,7 @@ Object {
               </span>
             </p>
             <p
-              class="longitude"
+              class="coordinate"
             >
               <span>
                 Long: 
@@ -496,7 +496,7 @@ Object {
               Rome
             </h2>
             <p
-              class="latitude"
+              class="coordinate"
             >
               <span>
                 Lat: 
@@ -506,7 +506,7 @@ Object {
               </span>
             </p>
             <p
-              class="longitude"
+              class="coordinate"
             >
               <span>
                 Long: 
@@ -535,7 +535,7 @@ Object {
               Spain
             </h2>
             <p
-              class="latitude"
+              class="coordinate"
             >
               <span>
                 Lat: 
@@ -545,7 +545,7 @@ Object {
               </span>
             </p>
             <p
-              class="longitude"
+              class="coordinate"
             >
               <span>
                 Long: 
@@ -574,7 +574,7 @@ Object {
               Berlin
             </h2>
             <p
-              class="latitude"
+              class="coordinate"
             >
               <span>
                 Lat: 
@@ -584,7 +584,7 @@ Object {
               </span>
             </p>
             <p
-              class="longitude"
+              class="coordinate"
             >
               <span>
                 Long: 
@@ -613,7 +613,7 @@ Object {
               Tokyo
             </h2>
             <p
-              class="latitude"
+              class="coordinate"
             >
               <span>
                 Lat: 
@@ -623,7 +623,7 @@ Object {
               </span>
             </p>
             <p
-              class="longitude"
+              class="coordinate"
             >
               <span>
                 Long: 
@@ -652,7 +652,7 @@ Object {
               Beijing
             </h2>
             <p
-              class="latitude"
+              class="coordinate"
             >
               <span>
                 Lat: 
@@ -662,7 +662,7 @@ Object {
               </span>
             </p>
             <p
-              class="longitude"
+              class="coordinate"
             >
               <span>
                 Long: 
@@ -691,7 +691,7 @@ Object {
               Singapore
             </h2>
             <p
-              class="latitude"
+              class="coordinate"
             >
               <span>
                 Lat: 
@@ -701,7 +701,7 @@ Object {
               </span>
             </p>
             <p
-              class="longitude"
+              class="coordinate"
             >
               <span>
                 Long: 
@@ -730,7 +730,7 @@ Object {
               Mumbai
             </h2>
             <p
-              class="latitude"
+              class="coordinate"
             >
               <span>
                 Lat: 
@@ -740,7 +740,7 @@ Object {
               </span>
             </p>
             <p
-              class="longitude"
+              class="coordinate"
             >
               <span>
                 Long: 
@@ -769,7 +769,7 @@ Object {
               New York
             </h2>
             <p
-              class="latitude"
+              class="coordinate"
             >
               <span>
                 Lat: 
@@ -779,7 +779,7 @@ Object {
               </span>
             </p>
             <p
-              class="longitude"
+              class="coordinate"
             >
               <span>
                 Long: 
