@@ -186,6 +186,9 @@ Give a ⭐️ if you like this project!
 
 I would like to thank everyone who did show support.
 
+👤 **Original Design 1**
+- Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
