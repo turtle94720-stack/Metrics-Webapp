@@ -16,7 +16,7 @@ const Navbar = () => {
       </p>
       {detailPage ? (
         <p className="title">Town/City Views</p>
-      ) : <p className="title">most Views</p>}
+      ) : <p className="title">most views</p>}
 
       <p className="icon">
         <span><FaMicrophone /></span>
