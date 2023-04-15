@@ -10,7 +10,7 @@ const Detail = () => {
 
   useEffect(() => {
     dispatch(fetchDetail({ lat, lon }));
-  }, []);
+  }, [lat, lon, dispatch]);
 
   if (!details) {
     return (
