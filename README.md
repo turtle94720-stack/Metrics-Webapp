@@ -31,7 +31,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Metrics-Webapp] <a name="about-project"></a>
+# 📖 [Metrics Webapp] <a name="about-project"></a>
+
+<div align="center">
+  <img src="assets/iPhone.png" alt="project sample" width="650"  height="auto" />
+  <br/>
+
+  <h3><b>Metrics Webapp</b></h3>
+
+</div>
 
 > Metrics Webapp is a mobile web application showing the current weather data of the cities using the Openweather API. It has two interfaces - city page and detail page based on the design of Nelson Sakwa on Behance. Built during the Microverse Module 3 React Captone Project.
 
