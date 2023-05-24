@@ -43,7 +43,7 @@ const City = () => {
             }}
           >
             <div className="city">
-              <img src={cloudy} alt="country map" />
+              <div className="city-img"><img src={cloudy} alt="country map" /></div>
               <div className="city-info">
                 <h2>{city.name}</h2>
                 <p className="coordinate">
