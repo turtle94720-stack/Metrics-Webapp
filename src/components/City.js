@@ -65,8 +65,8 @@ const City = () => {
               pathname: `/detail/${cities.name}/${cities.coord.lat}/${cities.coord.lon}`,
             }}
           >
-            <div className="city">
-              <img src={cloudy} alt="weather icon" />
+            <div className="filteredCity">
+              <div className="city-img"><img src={cloudy} alt="country map" /></div>
               <div className="city-info">
                 <h2>{cities.name}</h2>
                 <p className="coordinate">
@@ -82,9 +82,7 @@ const City = () => {
           </Link>
         )}
         {cities && cities.cod && (
-          <>
-            <h1>{cities.message}</h1>
-          </>
+          <p className="error-message">{cities.message}</p>
         )}
       </section>
     </>
