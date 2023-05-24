@@ -34,7 +34,7 @@
 # 📖 [Metrics Webapp] <a name="about-project"></a>
 
 <div align="center">
-  <img src="assets/iPhone.png" alt="project sample" width="650"  height="auto" />
+  <img src="src/assets/iPhone.png" alt="project sample" width="650"  height="auto" />
   <br/>
 
   <h3><b>Metrics Webapp</b></h3>

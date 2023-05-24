@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import citiesData from '../redux/citiesData';
 import { fetchCities } from '../redux/city/citiesSlice';
+import cloudy from '../assets/cloudy.png';
 
 const City = () => {
   const [keyword, setKeyword] = useState('');
@@ -21,7 +22,7 @@ const City = () => {
   };
 
   return (
-    <section>
+    <>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -32,7 +33,8 @@ const City = () => {
         />
         <button type="submit">Search</button>
       </form>
-      {!cities
+      <section>
+        {!cities
         && citiesData.map((city) => (
           <Link
             key={city.country}
@@ -41,7 +43,7 @@ const City = () => {
             }}
           >
             <div className="city">
-              <img src={city.img} alt="country map" />
+              <img src={cloudy} alt="country map" />
               <div className="city-info">
                 <h2>{city.name}</h2>
                 <p className="coordinate">
@@ -56,35 +58,36 @@ const City = () => {
             </div>
           </Link>
         ))}
-      {cities && cities.coord && (
-        <Link
-          key={cities.id}
-          to={{
-            pathname: `/detail/${cities.name}/${cities.coord.lat}/${cities.coord.lon}`,
-          }}
-        >
-          <div className="city">
-            <img src="" alt="country map" />
-            <div className="city-info">
-              <h2>{cities.name}</h2>
-              <p className="coordinate">
-                <span>Lat: </span>
-                <span>{cities.coord.lat}</span>
-              </p>
-              <p className="coordinate">
-                <span>Long: </span>
-                <span>{cities.coord.lon}</span>
-              </p>
+        {cities && cities.coord && (
+          <Link
+            key={cities.id}
+            to={{
+              pathname: `/detail/${cities.name}/${cities.coord.lat}/${cities.coord.lon}`,
+            }}
+          >
+            <div className="city">
+              <img src={cloudy} alt="weather icon" />
+              <div className="city-info">
+                <h2>{cities.name}</h2>
+                <p className="coordinate">
+                  <span>Lat: </span>
+                  <span>{cities.coord.lat}</span>
+                </p>
+                <p className="coordinate">
+                  <span>Long: </span>
+                  <span>{cities.coord.lon}</span>
+                </p>
+              </div>
             </div>
-          </div>
-        </Link>
-      )}
-      {cities && cities.cod && (
-        <>
-          <h1>{cities.message}</h1>
-        </>
-      )}
-    </section>
+          </Link>
+        )}
+        {cities && cities.cod && (
+          <>
+            <h1>{cities.message}</h1>
+          </>
+        )}
+      </section>
+    </>
   );
 };
 

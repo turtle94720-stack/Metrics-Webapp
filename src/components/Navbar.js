@@ -1,27 +1,72 @@
+import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FaMicrophone } from 'react-icons/fa';
-import { AiFillSetting } from 'react-icons/ai';
 import { IoIosArrowBack } from 'react-icons/io';
+import logo from '../assets/logo-white.png';
 
 const Navbar = () => {
   const location = useLocation();
   const detailPage = location.pathname.includes('/detail/');
+
+  const [toggle, setToggle] = useState(false);
+
+  const mobileMenu = () => {
+    setToggle(!toggle);
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      mobileMenu();
+    }
+  };
+
+  const reload = () => {
+    window.location.reload();
+  };
+
+  const handleLogo = (e) => {
+    if (e.key === 'Enter') {
+      reload();
+    }
+  };
+
   return (
     <nav>
-      <p className="year">
+      <div className="logo">
         {detailPage ? (
-          <Link to="/"><IoIosArrowBack /></Link>
-        ) : null}
-        2023
-      </p>
-      {detailPage ? (
-        <p className="title">Town/City Views</p>
-      ) : <p className="title">most views</p>}
-
-      <p className="icon">
-        <span><FaMicrophone /></span>
-        <span><AiFillSetting /></span>
-      </p>
+          <Link to="/" className="back">
+            <IoIosArrowBack className="backArrow" />
+            back
+          </Link>
+        )
+          : (
+            <div
+              onClick={reload}
+              onKeyDown={handleLogo}
+              role="button"
+              tabIndex={0}
+              aria-label="Reload Page"
+            >
+              <img src={logo} alt="logo" id="logo" />
+            </div>
+          )}
+      </div>
+      <div className={!toggle ? 'link close' : 'link'}>
+        <Link to="/"><p className="icon">Cities</p></Link>
+        <Link to="https://openweathermap.org/api/geocoding-api" target="_blank"><p className="icon">City API</p></Link>
+        <Link to="https://openweathermap.org/current" target="_blank"><p className="icon">Weather API</p></Link>
+      </div>
+      <div
+        className={toggle ? 'hamburger open' : 'hamburger'}
+        onClick={mobileMenu}
+        onKeyDown={handleKeyDown}
+        role="button"
+        tabIndex={0}
+        aria-label="Toggle Menu"
+      >
+        <span className="line" />
+        <span className="line" />
+        <span className="line" />
+      </div>
     </nav>
   );
 };
