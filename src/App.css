@@ -261,6 +261,10 @@ section .city .city-info .coordinate {
 }
 
 /* detail */
+.loading {
+  height: 100vh;
+}
+
 .detail {
   color: #fff;
   width: 90%;
