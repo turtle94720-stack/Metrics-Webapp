@@ -20,9 +20,28 @@ const Detail = () => {
     );
   }
 
+  const kelvinToCelsius = (kelvin) => Math.round(kelvin - 273.15);
+
   return (
     <div className="detail">
       <h1>{name}</h1>
+      <p className="temp">
+        {kelvinToCelsius(details.main.temp)}
+        °
+      </p>
+      <p className="description">{details.weather[0].description}</p>
+      <p className="max-min">
+        <span>
+          H:
+          {kelvinToCelsius(details.main.temp_max)}
+          °
+        </span>
+        <span>
+          L:
+          {kelvinToCelsius(details.main.temp_min)}
+          °
+        </span>
+      </p>
       <div className="coordinates">
         <h2>Coordinates</h2>
         <p>
@@ -49,44 +68,106 @@ const Detail = () => {
         <h2>Base Station</h2>
         <p>
           <span>Temperature</span>
-          <span>{details.main.temp}</span>
+          <span>
+            {kelvinToCelsius(details.main.temp)}
+            °
+          </span>
         </p>
         <p>
           <span>Feels Like</span>
-          <span>{details.main.feels_like}</span>
+          <span>
+            {kelvinToCelsius(details.main.feels_like)}
+            °
+          </span>
         </p>
         <p>
           <span>Humidity</span>
-          <span>{details.main.humidity}</span>
+          <span>
+            {details.main.humidity}
+            %
+          </span>
         </p>
         <p>
+          <span>Precipitation</span>
+          <span>
+            {details.rain === undefined ? '' : details.rain['1h']}
+            &nbsp;
+            mm
+          </span>
+        </p>
+      </div>
+      <div className="pressure">
+        <h2>Pressure</h2>
+        <p>
           <span>Pressure</span>
-          <span>{details.main.pressure}</span>
+          <span>
+            {details.main.pressure}
+            &nbsp;
+            hPa
+          </span>
+        </p>
+        <p>
+          <span>Sea level</span>
+          <span>
+            {details.main.sea_level}
+            &nbsp;
+            hPa
+          </span>
+        </p>
+        <p>
+          <span>Ground level</span>
+          <span>
+            {details.main.grnd_level}
+            &nbsp;
+            hPa
+          </span>
         </p>
       </div>
       <div className="visibility">
         <h2>Visibility</h2>
         <p>
           <span>Visible</span>
-          <span>{details.visibility}</span>
+          <span>
+            {details.visibility}
+            &nbsp;
+            mi
+          </span>
         </p>
       </div>
       <div className="wind">
         <h2>Wind</h2>
         <p>
           <span>Speed</span>
-          <span>{details.wind.speed}</span>
+          <span>
+            {details.wind.speed}
+            &nbsp;
+            m/s
+          </span>
         </p>
         <p>
-          <span>Degree</span>
-          <span>{details.wind.deg}</span>
+          <span>Direction</span>
+          <span>
+            {details.wind.deg}
+            °
+          </span>
+        </p>
+        <p>
+          <span>Gust</span>
+          <span>
+            {details.wind.gust}
+            &nbsp;
+            m/s
+          </span>
         </p>
       </div>
       <div className="cloud">
         <h2>Clouds</h2>
         <p>
           <span>Cover</span>
-          <span>{details.clouds.all}</span>
+          <span>
+            {details.clouds.all}
+            %
+          </span>
         </p>
       </div>
     </div>

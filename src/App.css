@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 :root {
   --blue: #468bd0e3;
+  --navy-blue: #2f85c7ef;
   --sky-blue: #58b7e0f1;
   --dark-blue: rgba(123, 188, 223, 0.796);
 }
@@ -23,12 +27,18 @@ body {
 h1 {
   color: #fff;
   text-align: center;
-  margin: 20px 0;
-  font-size: 40px;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 h2 {
   font-size: 20px;
+}
+
+a:-webkit-any-link {
+  color: #fff;
+  text-decoration: none;
 }
 
 nav {
@@ -64,10 +74,9 @@ nav .link {
   justify-content: center;
   width: 100%;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 5%;
   gap: 20px;
-  animation: 2s 1 slidein;
+  animation: 1.5s 1 slidein;
 }
 
 nav .link.close {
@@ -81,11 +90,11 @@ nav .link a {
 
 @keyframes slidein {
   from {
-    left: 70%;
+    left: 60%;
   }
 
   to {
-    left: 50%;
+    left: 5%;
   }
 }
 
@@ -175,22 +184,15 @@ section {
   grid-template-columns: auto auto;
 }
 
-section a:-webkit-any-link {
-  color: #fff;
-  text-decoration: none;
-}
-
 section a:-webkit-any-link:nth-child(4n+2),
 section a:-webkit-any-link:nth-child(4n+3) {
-  background-color: var(--sky-blue);
+  background-color: var(--navy-blue);
 }
 
 section .city {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  width: 100vw;
   padding: 20px 0;
 }
 
@@ -215,40 +217,39 @@ section .city .city-info .coordinate {
   margin-top: 2px;
 }
 
-section .filteredCity {
+.filteredCity {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
   width: 100vw;
   padding: 30px 0;
-  background-color: var(--sky-blue);
+  background-color: var(--navy-blue);
 }
 
-section .filteredCity .city-img {
-  width: 20%;
+.filteredCity .city-img {
+  width: 30%;
 }
 
-section .filteredCity img {
+.filteredCity img {
   width: 100%;
   height: 100%;
 }
 
-section .filteredCity .city-info {
+.filteredCity .city-info {
   width: 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
-section .filteredCity .city-info .coordinate {
+.filteredCity .city-info .coordinate {
   font-size: 13px;
   margin-top: 2px;
 }
 
-section .error-message {
+.error-message {
   text-align: center;
   text-transform: capitalize;
   width: 100vw;
@@ -261,28 +262,61 @@ section .error-message {
 
 /* detail */
 .detail {
-  width: 97%;
+  color: #fff;
+  width: 90%;
   margin: 10px auto;
 }
 
+.detail .temp {
+  text-align: center;
+  font-size: 65px;
+  font-weight: 300;
+  transform: translate(10px, -6px);
+}
+
+.detail .description {
+  text-align: center;
+  font-size: 18px;
+  text-transform: capitalize;
+  transform: translateY(-10px);
+}
+
+.detail .max-min {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
 .detail div {
-  margin: 10px 0;
+  margin: 15px 0;
   padding: 10px;
+  border-radius: 15px;
+  background-color: #2f85c7ef;
 }
 
 .detail div h2 {
-  font-size: 17px;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: var(--sky-blue);
+  margin-bottom: 10px;
+}
+
+.detail div h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 0.9px;
+  margin: 3px 0;
+  background-color: var(--sky-blue);
 }
 
 .detail div p {
   display: flex;
   justify-content: space-between;
   margin: 5px 0;
-  font-size: 15px;
-}
-
-.detail .coordinates,
-.base-station,
-.wind {
-  background-color: rgba(0, 0, 0, 0.076);
+  font-size: 14px;
 }

@@ -43,7 +43,7 @@ const City = () => {
             }}
           >
             <div className="city">
-              <div className="city-img"><img src={cloudy} alt="country map" /></div>
+              <div className="city-img"><img src={cloudy} alt="cloud" /></div>
               <div className="city-info">
                 <h2>{city.name}</h2>
                 <p className="coordinate">
@@ -58,33 +58,33 @@ const City = () => {
             </div>
           </Link>
         ))}
-        {cities && cities.coord && (
-          <Link
-            key={cities.id}
-            to={{
-              pathname: `/detail/${cities.name}/${cities.coord.lat}/${cities.coord.lon}`,
-            }}
-          >
-            <div className="filteredCity">
-              <div className="city-img"><img src={cloudy} alt="country map" /></div>
-              <div className="city-info">
-                <h2>{cities.name}</h2>
-                <p className="coordinate">
-                  <span>Lat: </span>
-                  <span>{cities.coord.lat}</span>
-                </p>
-                <p className="coordinate">
-                  <span>Long: </span>
-                  <span>{cities.coord.lon}</span>
-                </p>
-              </div>
-            </div>
-          </Link>
-        )}
-        {cities && cities.cod && (
-          <p className="error-message">{cities.message}</p>
-        )}
       </section>
+      {cities && cities.coord && (
+      <Link
+        key={cities.id}
+        to={{
+          pathname: `/detail/${cities.name}/${cities.coord.lat}/${cities.coord.lon}`,
+        }}
+      >
+        <div className="filteredCity">
+          <div className="city-img"><img src={cloudy} alt="cloud" /></div>
+          <div className="city-info">
+            <h2>{cities.name}</h2>
+            <p className="coordinate">
+              <span>Lat: </span>
+              <span>{cities.coord.lat}</span>
+            </p>
+            <p className="coordinate">
+              <span>Long: </span>
+              <span>{cities.coord.lon}</span>
+            </p>
+          </div>
+        </div>
+      </Link>
+      )}
+      {cities && cities.cod && (
+      <p className="error-message">{cities.message}</p>
+      )}
     </>
   );
 };

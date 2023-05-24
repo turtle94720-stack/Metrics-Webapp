@@ -51,9 +51,9 @@ const Navbar = () => {
           )}
       </div>
       <div className={!toggle ? 'link close' : 'link'}>
-        <Link to="/"><p className="icon">Cities</p></Link>
-        <Link to="https://openweathermap.org/api/geocoding-api" target="_blank"><p className="icon">City API</p></Link>
-        <Link to="https://openweathermap.org/current" target="_blank"><p className="icon">Weather API</p></Link>
+        <Link to="/">Cities</Link>
+        <Link to="https://openweathermap.org/api/geocoding-api" target="_blank">City API</Link>
+        <Link to="https://openweathermap.org/current" target="_blank">Weather API</Link>
       </div>
       <div
         className={toggle ? 'hamburger open' : 'hamburger'}
