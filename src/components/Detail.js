@@ -51,29 +51,37 @@ const Detail = () => {
             °
           </span>
         </p>
-        <div className="coordinates">
-          <h2>Coordinates</h2>
-          <p>
-            <span>Latitude</span>
-            <span>{details.coord.lat}</span>
-          </p>
-          <p>
-            <span>Longitude</span>
-            <span>{details.coord.lon}</span>
-          </p>
+        <div className="flex-card">
+          <div className="weather-card">
+            <h2>Coordinates</h2>
+            <p>
+              <span>Latitude</span>
+              <span>
+                {details.coord.lat}
+                °
+              </span>
+            </p>
+            <p>
+              <span>Longitude</span>
+              <span>
+                {details.coord.lon}
+                °
+              </span>
+            </p>
+          </div>
+          <div className="weather-card">
+            <h2>Weather</h2>
+            <p>
+              <span>Main</span>
+              <span>{details.weather[0].main}</span>
+            </p>
+            <p>
+              <span>Description</span>
+              <span>{details.weather[0].description}</span>
+            </p>
+          </div>
         </div>
-        <div className="weather">
-          <h2>Weather</h2>
-          <p>
-            <span>Main</span>
-            <span>{details.weather[0].main}</span>
-          </p>
-          <p>
-            <span>Description</span>
-            <span>{details.weather[0].description}</span>
-          </p>
-        </div>
-        <div className="base-station">
+        <div className="weather-card">
           <h2>Base Station</h2>
           <p>
             <span>Temperature</span>
@@ -105,79 +113,83 @@ const Detail = () => {
             </span>
           </p>
         </div>
-        <div className="pressure">
-          <h2>Pressure</h2>
-          <p>
-            <span>Pressure</span>
-            <span>
-              {details.main.pressure}
-              &nbsp;
-              hPa
-            </span>
-          </p>
-          <p>
-            <span>Sea level</span>
-            <span>
-              {details.main.sea_level}
-              &nbsp;
-              hPa
-            </span>
-          </p>
-          <p>
-            <span>Ground level</span>
-            <span>
-              {details.main.grnd_level}
-              &nbsp;
-              hPa
-            </span>
-          </p>
+        <div className="flex-card">
+          <div className="weather-card">
+            <h2>Pressure</h2>
+            <p>
+              <span>Pressure</span>
+              <span>
+                {details.main.pressure}
+                &nbsp;
+                hPa
+              </span>
+            </p>
+            <p>
+              <span>Sea level</span>
+              <span>
+                {details.main.sea_level}
+                &nbsp;
+                hPa
+              </span>
+            </p>
+            <p>
+              <span>Ground level</span>
+              <span>
+                {details.main.grnd_level}
+                &nbsp;
+                hPa
+              </span>
+            </p>
+          </div>
+          <div className="weather-card">
+            <h2>Wind</h2>
+            <p>
+              <span>Speed</span>
+              <span>
+                {details.wind.speed}
+                &nbsp;
+                m/s
+              </span>
+            </p>
+            <p>
+              <span>Direction</span>
+              <span>
+                {details.wind.deg}
+                °
+              </span>
+            </p>
+            <p>
+              <span>Gust</span>
+              <span>
+                {details.wind.gust}
+                &nbsp;
+                m/s
+              </span>
+            </p>
+          </div>
         </div>
-        <div className="visibility">
-          <h2>Visibility</h2>
-          <p>
-            <span>Visible</span>
-            <span>
-              {details.visibility}
-              &nbsp;
-              mi
-            </span>
-          </p>
-        </div>
-        <div className="wind">
-          <h2>Wind</h2>
-          <p>
-            <span>Speed</span>
-            <span>
-              {details.wind.speed}
-              &nbsp;
-              m/s
-            </span>
-          </p>
-          <p>
-            <span>Direction</span>
-            <span>
-              {details.wind.deg}
-              °
-            </span>
-          </p>
-          <p>
-            <span>Gust</span>
-            <span>
-              {details.wind.gust}
-              &nbsp;
-              m/s
-            </span>
-          </p>
-        </div>
-        <div className="cloud">
-          <h2>Clouds</h2>
-          <p>
-            <span>Cover</span>
-            <span>
-              {details.clouds.all}
-              %
-            </span>
-          </p>
+        <div className="flex-card">
+          <div className="weather-card">
+            <h2>Visibility</h2>
+            <p>
+              <span>Visible</span>
+              <span>
+                {details.visibility}
+                &nbsp;
+                mi
+              </span>
+            </p>
+          </div>
+          <div className="weather-card">
+            <h2>Clouds</h2>
+            <p>
+              <span>Cover</span>
+              <span>
+                {details.clouds.all}
+                %
+              </span>
+            </p>
+          </div>
         </div>
       </div>
     </div>

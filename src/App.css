@@ -332,14 +332,14 @@ section .city .city-info .coordinate {
   margin-bottom: 40px;
 }
 
-.detail div {
+.detail .weather-card {
   margin: 15px 0;
   padding: 10px;
   border-radius: 15px;
   background-color: #2f85c7ef;
 }
 
-.detail div h2 {
+.detail .weather-card h2 {
   font-size: 15px;
   font-weight: 300;
   text-transform: uppercase;
@@ -347,7 +347,7 @@ section .city .city-info .coordinate {
   margin-bottom: 10px;
 }
 
-.detail div h2::after {
+.detail .weather-card h2::after {
   content: '';
   display: block;
   width: 100%;
@@ -356,7 +356,7 @@ section .city .city-info .coordinate {
   background-color: var(--sky-blue);
 }
 
-.detail div p {
+.detail .weather-card p {
   display: flex;
   justify-content: space-between;
   margin: 5px 0;
@@ -391,6 +391,10 @@ section .city .city-info .coordinate {
 }
 
 @media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 35px;
+  }
+
   h2 {
     font-size: 22.5px;
   }
@@ -482,5 +486,57 @@ section .city .city-info .coordinate {
 
   .filteredCity .city-info .coordinate {
     font-size: 14px;
+  }
+
+  .cloud-desktop {
+    top: -24%;
+  }
+
+  .detail {
+    margin-top: 200px;
+  }
+
+  .detail .temp {
+    font-size: 75px;
+  }
+
+  .detail .description {
+    font-size: 20px;
+  }
+
+  .detail .max-min {
+    font-size: 18px;
+  }
+
+  .detail .flex-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .detail .flex-card .weather-card {
+    width: 49.2%;
+  }
+
+  .detail .weather-card {
+    padding: 15px 20px;
+    margin: 8px 0;
+  }
+
+  .detail .weather-card h2 {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .detail .weather-card p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cloud-desktop {
+    width: 840px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
