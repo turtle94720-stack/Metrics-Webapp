@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchDetail } from '../redux/detail/detailsSlice';
 import cloud from '../assets/cloud-background.png';
+import cloudDesktop from '../assets/cloud-desktop.png';
 
 const Detail = () => {
   const { name, lat, lon } = useParams();
@@ -27,6 +28,9 @@ const Detail = () => {
     <div className="detail-container">
       <div className="cloud-img">
         <img src={cloud} alt="cloud-background" />
+      </div>
+      <div className="cloud-desktop">
+        <img src={cloudDesktop} alt="cloud-background" />
       </div>
       <div className="detail">
         <h1>{name}</h1>

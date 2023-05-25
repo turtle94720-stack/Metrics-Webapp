@@ -76,7 +76,7 @@ nav .link {
   position: absolute;
   left: 5%;
   gap: 20px;
-  animation: 1.5s 1 slidein;
+  animation: 1.5s 1 slidein ease-out;
 }
 
 nav .link.close {
@@ -269,15 +269,17 @@ section .city .city-info .coordinate {
   position: relative;
 }
 
-.cloud-img {
+.cloud-img, .cloud-desktop {
   position: absolute;
   width: 100vw;
+  height: 180px;
   z-index: -1;
-  top: -17%;
+  top: -15%;
   animation: moving 7s 0s infinite ease-in-out;
 }
 
-.cloud-img img {
+.cloud-img img,
+.cloud-desktop img {
   filter: contrast(150%) brightness(1.2);
   object-fit: cover;
   width: 100%;
@@ -296,14 +298,14 @@ section .city .city-info .coordinate {
   }
 }
 
+.cloud-desktop {
+  display: none;
+}
+
 .detail {
   color: #fff;
   width: 90%;
-  margin: 10px auto;
-}
-
-.detail h1 {
-  margin-top: 140px;
+  margin: 140px auto 15px auto;
 }
 
 .detail .temp {
@@ -358,4 +360,37 @@ section .city .city-info .coordinate {
   justify-content: space-between;
   margin: 5px 0;
   font-size: 14px;
+}
+
+@media screen and (min-width: 600px) {
+  .cloud-img {
+    height: 220px;
+    top: -20%;
+  }
+
+  .detail {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cloud-desktop {
+    display: block;
+    height: auto;
+    animation: none;
+  }
+
+  .cloud-desktop img {
+    filter: contrast(100%) brightness(2);
+  }
+
+  .cloud-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav {
+    padding: 15px 30px;
+  }
 }
