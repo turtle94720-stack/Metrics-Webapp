@@ -34,6 +34,7 @@ h1 {
 
 h2 {
   font-size: 20px;
+  font-weight: 300;
 }
 
 a:-webkit-any-link {
@@ -390,7 +391,96 @@ section .city .city-info .coordinate {
 }
 
 @media screen and (min-width: 1024px) {
+  h2 {
+    font-size: 22.5px;
+  }
+
   nav {
     padding: 15px 30px;
+    position: relative;
+  }
+
+  nav .logo .back {
+    font-size: 23px;
+  }
+
+  nav .logo .back .backArrow {
+    font-size: 30px;
+  }
+
+  nav .logo #logo {
+    width: 55px;
+    height: 55px;
+  }
+
+  nav .link.close {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    width: fit-content;
+    left: auto;
+    right: 4%;
+    animation: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  form input {
+    font-size: 19px;
+    font-weight: 300;
+    width: 60%;
+    height: 60px;
+    padding: 0px 20px;
+  }
+
+  form button {
+    font-size: 19px;
+    font-weight: 300;
+    width: 100px;
+  }
+
+  section {
+    grid-template-columns: auto auto auto auto auto;
+  }
+
+  section a:-webkit-any-link:nth-child(4n+2),
+  section a:-webkit-any-link:nth-child(4n+3) {
+    background-color: transparent;
+  }
+
+  section a:-webkit-any-link:nth-child(2n) {
+    background-color: var(--navy-blue);
+  }
+
+  section .city {
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    padding: 0;
+  }
+
+  section .city .city-img {
+    width: 80px;
+    margin: 10px auto 0 auto;
+  }
+
+  section .city .city-info {
+    width: 100%;
+    align-items: flex-end;
+    padding: 10px 20px;
+  }
+
+  section .city .city-info .coordinate {
+    font-size: 14px;
+  }
+
+  .filteredCity {
+    width: 30%;
+  }
+
+  .filteredCity .city-info .coordinate {
+    font-size: 14px;
   }
 }
