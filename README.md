@@ -77,10 +77,6 @@
 
 <!-- VideoDEMO -->
 
-## 🚀 Video Demo <a name="live-demo"></a>
-
-- [Project Description Video Link](https://www.loom.com/share/eb5d418ed19246c58b628bb376c4111b)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
